@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Innovation Center</h1>
+    <form>
+      <div class="form-group">
+        <label for="mailid">Mail ID</label>
+        <input type="text" class="form-control" id="mailid" required>
+      </div>
+      <br>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" required>
+      </div>
+
+      <button type="submit" class="btn btn-success"  ngSubmit="submit($event)">Submit</button>
+
+    </form>
+</div>
+
+
+<router-outlet></router-outlet>
