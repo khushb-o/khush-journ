@@ -7,7 +7,7 @@ import { SolutionSubmitComponent } from './solution-submit/solution-submit.compo
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginpageComponent },
-  { path: 'idea',      component: IdeaSubmitComponent },
+  { path: 'idea',  component: IdeaSubmitComponent },
   {
     path: 'solution',
     component: SolutionSubmitComponent,
